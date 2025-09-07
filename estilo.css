@@ -1,0 +1,182 @@
+html {
+  font-size: 62.5%; /* 62.5% de 16px = 10px */
+}
+
+body{
+    margin: 0;
+      font-family: 'League Spartan', sans-serif;
+}
+
+header{
+    background-color: #181717;
+    display: flex;
+    justify-content: space-between;
+    padding: 1.3em;
+}
+
+
+.logotipo{
+    margin-left: 5%;
+    margin-bottom: 1em;
+}
+
+ul{
+    list-style: none;
+    margin-right: 5%;
+    margin: auto 5em auto 0;
+}
+
+li {
+    display: inline-block;
+    color: rgb(235, 218, 69);
+    padding: 1.3rem;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    border: solid rgb(235, 218, 69) 0.1rem;
+    margin: 0.2rem;
+    border-radius: 5px;
+}
+
+li:hover{
+    background-color: rgb(250, 225, 0) ;
+    color: black;
+    cursor: pointer;
+    font-size: 20px;
+    transform: translateX(-5px);
+    transition: 0.5s;
+    margin: 10px;
+}
+
+
+.main-section{
+    padding-top: 2.5em;
+    min-width: 100%;
+    display: flex;
+    flex-direction: row;
+    background: linear-gradient(to top, rgb(233, 233, 61), rgb(241, 231, 231))
+}
+
+.titulo-main-section{
+    font-size: 7em;
+    margin-bottom: 0;
+}
+
+.botao{
+    background-color: rgb(240, 184, 0);
+    padding: 1.5rem;
+    font-size: 1.9rem;
+    text-align: center;
+    width: 8em;
+    border-radius: 5%;
+    cursor: pointer;
+    margin-top: 2em;
+}
+
+
+.texto{
+    margin: 9em;
+    display: flex;
+    width: 33%;
+    flex-direction: column;
+}
+
+.main-cursos{
+    background-color: #cfcccc;
+    padding: 2em;
+    padding-bottom: 10em;
+
+}
+.main-cursos-title{
+    font-size: 4.5rem;
+    text-align: center;
+    margin-bottom: 2em;
+}
+
+.cursos-article{
+    display: flex;
+    justify-content: space-around;
+    gap: 1.5em;
+}
+
+.cursos{
+    background-color: white;
+    max-width: 26%;
+    padding: 0.1em;
+}
+
+.titulo-curso{
+    font-size: 2.3em;
+    margin: 1em;
+}
+
+.descricao-curso{
+    font-size: 2em;
+    color: rgb(71, 71, 71);
+    padding: 1em;
+}
+
+.botao-curso{
+    display: flex;
+    justify-content: center;
+    margin-top: 2em;
+
+}
+
+.nossa-escola{
+    background-color: rgba(11, 11, 54);
+    display: flex;
+    color: white;
+    height: 70vh;
+    padding-left: 3rem;
+    padding-top: 4rem;
+}
+
+.nossa-escola-content{
+    flex-direction: column;
+    padding: 5rem;
+    
+    
+}
+
+.nossa-escola-foto{
+    display: flex;
+}
+.nossa-escola-content-title{
+    font-size: 6em;
+    font-family: 'Jersey 10';
+    letter-spacing: 0.7rem;
+    margin-top: -2rem;
+}
+
+.nossa-escola-content-descricao{
+    font-size: 2.4rem;
+    width: 80%;
+}
+
+.contatos{
+    padding-top: 5rem;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.informacoes{
+    display: flex;
+    align-items: flex-end;
+    padding: 5rem;
+    flex-direction: column;
+    font-size: 2rem;
+    margin-bottom: 0;
+    
+}
+
+.informacoes p{
+    margin: 0.5em;
+}
+
+footer{
+    background-color: #181717;
+    color: white;
+    font-size: 1.6rem;
+    padding: 1rem;
+    text-align: center;
+}
